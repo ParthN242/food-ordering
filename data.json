@@ -1,0 +1,156 @@
+[
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisb6a9.webp",
+    "name": "Brownies",
+    "description": "Finish your meal with Cicis rich, fudgy chocolate brownies dusted with powdered sugar for a decadent dessert (24 count).",
+    "category": "6608069746f04715512f2bde",
+    "basePrice": 8,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:44:08.968Z",
+    "updatedAt": "2023-11-04T12:14:49.632Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisd5fm.webp",
+    "name": "Cinnamon Rolls",
+    "description": "Our warm and buttery mini cinnamon rolls glazed with a sweet icing drizzle are famous for a reason. Once you try this dessert, it's impossible to eat just one (20 count).",
+    "category": "6608069746f04715512f2bde",
+    "basePrice": 7,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:44:48.882Z",
+    "updatedAt": "2023-11-04T11:54:12.219Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloise1hh.webp",
+    "name": "Pasta salad",
+    "description": "Cicis pasta salad is mixed with veggies including black olives, green olives, banana peppers, and tomatoes over pasta tossed in our signature Italian dressing.",
+    "category": "6608069146f04715512f2bda",
+    "basePrice": 5,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:45:35.134Z",
+    "updatedAt": "2023-11-04T11:54:19.425Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisf40y.webp",
+    "name": "Pasta Alfredo",
+    "description": "Meet our cheesiest pasta. Grab yourself a helping of delicious pasta coated with a gooey and cheesy alfredo sauce.",
+    "category": "6608069146f04715512f2bda",
+    "basePrice": 9,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:46:30.615Z",
+    "updatedAt": "2023-11-03T15:46:30.615Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisg9cc.png",
+    "name": "Pasta Marinara",
+    "description": "You can't go wrong with this Italian favorite. Grab yourself a helping of our delicious pasta with a comforting tomato marinara sauce.",
+    "category": "6608069146f04715512f2bda",
+    "basePrice": 8,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:47:03.079Z",
+    "updatedAt": "2023-11-03T15:47:03.079Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisgzf9.webp",
+    "name": "Classic Chicken",
+    "description": "Delicious chicken takes center stage. Grab a slice of our classic chicken pizza topped with premium juicy chicken, sliced mushrooms, and mozzarella cheese on a traditional garlic butter brushed crust. It's all seasoned spectacularly with a zesty parmesan ranch sauce base and a sprinkling of parmesan oregano to finish.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 12,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:47:50.766Z",
+    "updatedAt": "2023-11-03T15:47:50.766Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloishx7a.webp",
+    "name": "Veggie Pizza",
+    "description": "This one is for the veggie lovers. Our veggie pizza features fresh red onions, green peppers, mushrooms and black olives on top of our traditional garlic butter brushed crust with a marinara sauce and shredded mozzarella cheese. Or change it up by making it a Zesty Veggie Pizza featuring our tangy Parmesan Ranch sauce.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 11,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:48:21.934Z",
+    "updatedAt": "2023-11-03T15:48:21.934Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisilkz.webp",
+    "name": "Sausage Pizza",
+    "description": "Is sausage pizza your savory favorite? Enjoy our classic traditional crust brushed with garlic butter and topped with marinara sauce, mozzarella cheese, and deliciously seasoned pork sausage meat.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 12,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:49:04.361Z",
+    "updatedAt": "2023-11-03T15:49:04.361Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloisjii6.webp",
+    "name": "Pepperoni Pizza",
+    "description": "Pepperoni puts the pizzazz in pizza. Enjoy every bite of our traditional crust brushed with garlic butter, topped mozzarella cheese. Go classic with marinara sauce or make it a Zesty Pepperoni Pizza with our tangy Parmesan Ranch sauce.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 12,
+    "sizes": [
+      {
+        "name": "Small",
+        "price": 0
+      },
+      {
+        "name": "Medium",
+        "price": 2
+      },
+      {
+        "name": "Large",
+        "price": 4
+      }
+    ],
+    "extraIngredientPrices": [
+      {
+        "name": "Extra cheese",
+        "price": 1
+      },
+      {
+        "name": "Extra pepperoni",
+        "price": 2
+      }
+    ],
+    "createdAt": "2023-11-03T15:50:19.695Z",
+    "updatedAt": "2023-11-03T15:52:09.327Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloislgn5.webp",
+    "name": "Cheese Pizza",
+    "description": "Cheese pizza is a favorite for a reason. Gooey mozzarella cheese is the star of our cheese pizza on a traditional crust brushed with garlic butter and topped with marinara sauce.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 11,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:51:07.932Z",
+    "updatedAt": "2023-11-04T12:25:41.439Z",
+    "__v": 0
+  },
+  {
+    "image": "https://dawid-food-ordering.s3.amazonaws.com/l3tloismfja.webp",
+    "name": "Beef Pizza",
+    "description": "Beef pizza is made for the meat lovers. Enjoy on our traditional crust brushed with garlic butter and finished with marinara sauce, mozzarella cheese, and loaded with beef.",
+    "category": "6608061b46f04715512f2ad9",
+    "basePrice": 14,
+    "sizes": [],
+    "extraIngredientPrices": [],
+    "createdAt": "2023-11-03T15:51:46.316Z",
+    "updatedAt": "2023-11-04T12:25:30.804Z",
+    "__v": 0
+  }
+]

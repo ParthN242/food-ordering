@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.input {
+  @apply w-full p-2 py-2 rounded-xl bg-gray-100 border outline-none border-gray-300;
+}
+
+.button {
+  @apply w-full bg-primary rounded-xl text-white py-2 text-[16px] hover:bg-darkPrimary font-semibold;
+}
+
+.label {
+  @apply text-gray-500 text-[14px] leading-tight;
+}
+
+.paymentInput {
+  padding: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+}
