@@ -33,6 +33,10 @@ const MenuPage = () => {
   const session = useSession();
   const [menuItems, setMenuItems] = useState([]);
 
+  useEffect(() => {
+    axios.get("/api/menu-items").then((d) => setMenuItems(d.data.items));
+  }, []);
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -45,9 +49,6 @@ const MenuPage = () => {
     return redirect("/");
   }
 
-  useEffect(() => {
-    axios.get("/api/menu-items").then((d) => setMenuItems(d.data.items));
-  }, []);
   return (
     <section className="mt-8 max-w-2xl mx-auto">
       <UserTab />

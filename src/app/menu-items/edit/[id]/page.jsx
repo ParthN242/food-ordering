@@ -19,6 +19,12 @@ const EditPage = () => {
   const session = useSession();
   const [menuItem, setMenuItem] = useState({});
 
+  useEffect(() => {
+    axios
+      .get(`/api/menu-items`)
+      .then((d) => setMenuItem(() => d.data.items.find((i) => i._id === id)));
+  }, [id]);
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -59,11 +65,6 @@ const EditPage = () => {
     }
   };
 
-  useEffect(() => {
-    axios
-      .get(`/api/menu-items`)
-      .then((d) => setMenuItem(() => d.data.items.find((i) => i._id === id)));
-  }, [id]);
   return (
     <section className="mt-8 max-w-2xl mx-auto">
       <UserTab />
