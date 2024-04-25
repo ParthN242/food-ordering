@@ -13,6 +13,11 @@ const UsersPage = () => {
 
   const { profile } = useContext(AppContext);
   const session = useSession();
+
+  useEffect(() => {
+    axios.get("/api/users").then((d) => setUsers(d.data.users));
+  }, []);
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -25,9 +30,6 @@ const UsersPage = () => {
     return redirect("/");
   }
 
-  useEffect(() => {
-    axios.get("/api/users").then((d) => setUsers(d.data.users));
-  }, []);
   return (
     <section className="mt-8">
       <UserTab />

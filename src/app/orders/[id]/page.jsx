@@ -14,15 +14,6 @@ const OrderPage = () => {
   const [loadingOrder, setLoadingOrder] = useState(true);
   const { id } = useParams();
 
-  const session = useSession();
-  if (session.status === "loading") {
-    return <Loading />;
-  }
-
-  if (session.status === "unauthenticated") {
-    return redirect("/login");
-  }
-
   useEffect(() => {
     if (id) {
       setLoadingOrder(true);
@@ -31,7 +22,16 @@ const OrderPage = () => {
         setLoadingOrder(false);
       });
     }
-  }, []);
+  }, [id]);
+
+  const session = useSession();
+  if (session.status === "loading") {
+    return <Loading />;
+  }
+
+  if (session.status === "unauthenticated") {
+    return redirect("/login");
+  }
 
   let subtotal = 0;
   if (order?.cartProducts) {

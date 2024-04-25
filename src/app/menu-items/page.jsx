@@ -31,6 +31,8 @@ const MenuItem = ({ data }) => {
 const MenuPage = () => {
   const { profile } = useContext(AppContext);
   const session = useSession();
+  const [menuItems, setMenuItems] = useState([]);
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -43,7 +45,6 @@ const MenuPage = () => {
     return redirect("/");
   }
 
-  const [menuItems, setMenuItems] = useState([]);
   useEffect(() => {
     axios.get("/api/menu-items").then((d) => setMenuItems(d.data.items));
   }, []);

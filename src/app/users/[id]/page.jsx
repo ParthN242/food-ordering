@@ -16,6 +16,11 @@ const UserEditPage = () => {
 
   const { profile } = useContext(AppContext);
   const session = useSession();
+
+  useEffect(() => {
+    axios.get(`/api/users/${id}`).then((d) => setUserProfile(d.data.user));
+  }, []);
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -37,9 +42,6 @@ const UserEditPage = () => {
     } catch (error) {}
   };
 
-  useEffect(() => {
-    axios.get(`/api/users/${id}`).then((d) => setUserProfile(d.data.user));
-  }, []);
   return (
     <section className="mt-8">
       <UserTab />

@@ -17,6 +17,8 @@ const EditPage = () => {
   const router = useRouter();
   const { profile } = useContext(AppContext);
   const session = useSession();
+  const [menuItem, setMenuItem] = useState({});
+
   if (session.status === "loading") {
     return <Loading />;
   }
@@ -28,8 +30,6 @@ const EditPage = () => {
   if (!profile?.admin) {
     return redirect("/");
   }
-
-  const [menuItem, setMenuItem] = useState({});
 
   const submitHandler = async (itemData) => {
     try {
