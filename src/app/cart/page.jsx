@@ -66,7 +66,7 @@ const CartPage = () => {
   return (
     <section className="mt-8">
       <SectionHeader heading={"Cart"} />
-      <div className="flex gap-4 mt-4 items-start box-border">
+      <div className="flex max-md:flex-col gap-4 mt-4 items-start box-border">
         <div className="flex-1 flex flex-col gap-2">
           {cart.map((item, i) => (
             <CartItem item={item} key={i} index={i} />
@@ -86,7 +86,7 @@ const CartPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[50%] bg-gray-100 p-3 rounded-lg">
+        <div className="w-[50%] max-md:w-full bg-gray-100 p-3 rounded-lg">
           <h2>Checkout</h2>
           <div className="flex flex-col gap-2">
             <AddressInputs
